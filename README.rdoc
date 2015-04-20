@@ -13,9 +13,7 @@ the course evaluations students are mandated to complete each semester.
 
 - A database of classes, each of which has a department, course number, course title, course description, and rating
 
-- A second view of the website for readers, which displays the posts according to class
-and department, which is easier to read. Readers will be able to navigate to a class
-page (indexed according to department and class number), and see the reviews that
+- A second view of the website for readers, which displays the posts according to class and department, which is easier to read. Readers will be able to navigate to a class page (indexed according to department and class number), and see the reviews that
 have been submitted for each class.
 
 - A database table of contents, with a one to many relationship between a class page
