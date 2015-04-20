@@ -1,6 +1,7 @@
 == README
 
 Course Reviews
+
 A website for Smith College to consolidate course evaluations and class reviews. Every
 semester, when I look for classes to take, I have difficulty finding reviews of what classes are
 like. Though ratemyprofessors.com exists, it often has dated reviews, and will not contain
@@ -10,7 +11,7 @@ Smith students will find it easier to search for classes to take. Information wi
 the course evaluations students are mandated to complete each semester.
 
 
--A database of classes, each of which has a department, course number, course title, course description, and rating
+- A database of classes, each of which has a department, course number, course title, course description, and rating
 
 - A second view of the website for readers, which displays the posts according to class
 and department, which is easier to read. Readers will be able to navigate to a class
