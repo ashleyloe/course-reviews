@@ -1,27 +1,24 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Course Reviews
+A website for Smith College to consolidate course evaluations and class reviews. Every
+semester, when I look for classes to take, I have difficulty finding reviews of what classes are
+like. Though ratemyprofessors.com exists, it often has dated reviews, and will not contain
+details about what class was taken and when that class was taken. By consolidating reviews
+according to the department and class number (which should be uniform from year to year),
+Smith students will find it easier to search for classes to take. Information will be populated by
+the course evaluations students are mandated to complete each semester.
 
-Things you may want to cover:
 
-* Ruby version
+-A database of classes, each of which has a department, course number, course title, course description, and rating
 
-* System dependencies
+- A second view of the website for readers, which displays the posts according to class
+and department, which is easier to read. Readers will be able to navigate to a class
+page (indexed according to department and class number), and see the reviews that
+have been submitted for each class.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- A database table of contents, with a one to many relationship between a class page
+and student reviews. Each class page will contain many reviews linked to that class.
 
 
 Please feel free to use a different markup language if you do not plan to run
