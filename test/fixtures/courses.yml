@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  department: MyString
+  course_number: 1
+  course_title: MyString
+  description: MyText
+  rating: 9.99
+
+two:
+  department: MyString
+  course_number: 1
+  course_title: MyString
+  description: MyText
+  rating: 9.99
+
+#START:ruby
+
+ruby: 
+department: CSC
+  course_number: 105
+  course_title: Interactive Web
+  description: Learn HTMl and CSS
+  rating: 4.5
+#END:ruby

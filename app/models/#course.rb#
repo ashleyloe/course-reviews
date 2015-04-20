@@ -1,0 +1,7 @@
+class Course < ActiveRecord::Base
+      validates :department, :course_number, :course_title, :description, :rating, presence: true
+      validates :department, length: {is: 3}
+      validates :course_number, numericality: {greater_than_or_equal_to: 100, less_than_or_equal_to: 400}
+       
+      validates :rating, numericality: {greater_than_or_equal_to: 0.00, less_than_or_equal_to: 5.0}
+end

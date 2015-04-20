@@ -1,0 +1,37 @@
+<h1>Listing courses</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Department</th>
+      <th>Course number</th>
+      <th>Course title</th>
+      <th>Description</th>
+      <th>Rating</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @courses.each do |course| %>
+      <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
+        <td><%= course.department %></td>
+        <td><%= course.course_number %></td>
+        <td><%= course.course_title %></td>
+        <td><%= course.description %></td>
+        <td><%= course.rating %></td>
+        <td class="list_actions">
+	  <%= link_to 'Show', course %><br/>
+          <%= link_to 'Edit', edit_course_path(course) %><br/>
+          <%= link_to 'Destroy', course, method: :delete, data: { confirm: 'Are you sure?' } %>
+	  </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br/>
+
+<%= link_to 'New Course', new_course_path %>
